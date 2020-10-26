@@ -14,6 +14,7 @@
 		B546D4B52546E54C003C9FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B546D4B42546E54C003C9FAF /* Assets.xcassets */; };
 		B546D4B82546E54C003C9FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B546D4B62546E54C003C9FAF /* LaunchScreen.storyboard */; };
 		B546D4BB2546E54C003C9FAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B546D4BA2546E54C003C9FAF /* main.m */; };
+		B546D4C32546E9B5003C9FAF /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = B546D4C22546E9B5003C9FAF /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		B546D4B72546E54C003C9FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B546D4B92546E54C003C9FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B546D4BA2546E54C003C9FAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B546D4C12546E9B5003C9FAF /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		B546D4C22546E9B5003C9FAF /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				B546D4B62546E54C003C9FAF /* LaunchScreen.storyboard */,
 				B546D4B92546E54C003C9FAF /* Info.plist */,
 				B546D4BA2546E54C003C9FAF /* main.m */,
+				B546D4C12546E9B5003C9FAF /* test.h */,
+				B546D4C22546E9B5003C9FAF /* test.m */,
 			);
 			path = GitFirst;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B546D4C32546E9B5003C9FAF /* test.m in Sources */,
 				B546D4B02546E54A003C9FAF /* ViewController.m in Sources */,
 				B546D4AA2546E54A003C9FAF /* AppDelegate.m in Sources */,
 				B546D4BB2546E54C003C9FAF /* main.m in Sources */,
